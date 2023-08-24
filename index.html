@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouplearn</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+        <ul class="nav">
+            <li class="title"><a href="index.html" class="nav-link " id="logo"><ion-icon id="groplogo" name="leaf-sharp"></ion-icon>Grouplearn</a></li>
+            <li class="nav-item dropdown " data-bs-target=".target">
+                <a href="course.html" class="nav-link "  >
+                    Courses
+                </a>
+                
+              
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Leaderboard</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Discuss</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Feed</a></li>
+            <li class="nav-item"><a href="pro.html" class="nav-link btn btn-success me-3" id="update"><ion-icon id="icon1" name="rocket-outline"></ion-icon>Go PRO</a></li>
+            <li  class="dropdown" ><ion-icon data-bs-toggle="dropdown"name="menu" class="menu-icon dropdown-toggle " ></ion-icon>
+            <ul class="dropdown-menu mt-4">
+                <li class="dropdown-item"><a href="course.html" class="nav-link"> Courses</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Leaderboard</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Discuss</a></li>
+                <li class="dropdown-item"><a href="" class="nav-link">Feed</a></li>
+            </ul>
+            </li>
+        </ul>
+
+    <div class="profile container-fluid text-center">
+        <span class=" ">
+            
+            <input type="file" id="input" onchange="loadFile(event)">
+           
+            <img src="./images/3.jpg" id="output">
+            <label for="input" class="btn btn-dark text-white mt-1 mb-1 " id="change"><ion-icon name="camera-outline" class=" me-1 camera-icon"></ion-icon>Change</label>
+            </span>
+            <br>
+            <span class=" ">
+            <h3 class="d-inline Name " id="name">Name</h3>
+            <h4 class="d Country " id="country">Country<small id="flag"></small></h4>
+            </span>
+    </div>
+    <div class="container">
+    <div class="go-pro p-3">
+        <div class="start">
+            <p class="s-para">Grouplearn<small class="badge rounded-pill bg-warning ms-2">PRO</small></p>
+            <p class="s-para">Get 14 days of Free PRO experience.</p>
+        </div>
+        <div class="end">
+            <a href="pro.html" class="btn btn-warning">Start</a>
+        </div>
+    </div>
+  </div>
+  
+<!--<div class="row na streak-map  ">
+    <div class="map p-2 col-sm  ">
+        <h6 class="text-dark">Strick</h6>
+        <div class="week d-flex">
+            <span class="me-2">
+                <p class="day"></p>
+                 <p class="ms-2">S</p>
+            </span>
+            <span class="me-2">
+                 <p class="day"></p>
+                <p class="ms-2"> M</p>
+            </span>
+            <span class="me-2">
+                 <p class="day"></p>
+                <p class="ms-2">T</p>
+            </span>
+            <span class="me-2">
+                 <p class="day"></p>
+                <p class="ms-2">W</p>
+            </span>
+            <span class="me-2">
+                 <p class="day"></p>
+                <p class="ms-2">T</p>
+            </span>
+            <span class="me-2">
+                 <p class="day"></p>
+                <p class="ms-2">F</p>
+            </span>
+            <span class="me-2">
+                 <p class="day"></p>
+                <p class="ms-2">S</p>
+            </span>
+        </div>
+    </div>
+    <div class="count p-2 col-sm   ">
+        <div>
+            <span>
+                <p>Current Streak</p>
+                <p> 0 days</p>
+            </span>
+        </div>
+        <div>
+            <span>
+                <p>Longest Streak</p>
+                <p> 0 days</p>
+            </span>
+        </div>
+    </div>
+
+</div>-->
+
+    <script src="./Bootstrap/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="./Bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+<!-- <span class="profile ">
+            
+        <input type="file" id="input" onchange="loadFile(event)">
+        <img src="./images/download.png" id="output">
+        <label for="input" class="btn btn-dark text-white mt-2" id="change"><ion-icon name="camera-outline" class=" me-1 camera-icon"></ion-icon>Change</label>
+          </span>-->
